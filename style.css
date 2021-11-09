@@ -35,8 +35,53 @@ textarea {
     resize: none
 }
   
-button, input, textarea, select {
+input, textarea, select {
     appearance: none !important;
     -webkit-appearance: none !important;
     border-radius: 0
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+#section1 {
+    position: relative;
+    background-color: #264653;
+}
+
+#button1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #e9c46a;
+}
+
+#button2 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: #f4a261;
+}
+
+#section2 {
+    position: relative;
+    background-color: #2a9d8f;
+}
+
+#button3 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 60px;
+    background-color: #e76f51;
 }
